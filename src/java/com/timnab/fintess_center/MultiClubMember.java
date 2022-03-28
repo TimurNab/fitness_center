@@ -8,13 +8,11 @@ public class MultiClubMember extends Member {
         membershipPoints = pMembershipPoint;
     }
 
-    public int getMembershipPoints() {
-        return membershipPoints;
-    }
-
     public void setMembershipPoints(int pMembershipPoints) {
         membershipPoints = pMembershipPoints;
     }
+
+    public int getMembershipPoints() {return membershipPoints;}
 
     @Override
     public String toString() {
